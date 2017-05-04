@@ -1,0 +1,81 @@
+<templateSet group="user">
+  <template name="cit" value="it &quot;should $SHOULD$&quot;, () -&gt;&#10;  $END$" toReformat="true" toShortenFQNames="true">
+    <variable name="SHOULD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="cbef" value="beforeEach () -&gt;&#10;  $END$&#10;      " toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="cdesc" value="describe &quot;$1$&quot;, () -&gt;&#10;  $END$" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="cexp" value="expect($1$).toBe$2$($3$)$END$" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="jdesc" value="describe('$TITLE$', function() {&#10;  $END$&#10;});" toReformat="true" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="jbef" value="beforeEach(function() {&#10;  $END$&#10;});" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tit" value="it(&quot;should $TEXT$&quot;, () =&gt; {&#10;  $END$&#10;});" toReformat="false" toShortenFQNames="true">
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="texp" value="expect($1$).$2$($3$);" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="iman" value="import angular from 'angular';" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tdesc" value="describe(&quot;$TITLE$&quot;, () =&gt; {&#10;  $END$&#10;});" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="tbef" value="beforeEach(() =&gt; {&#10;  $END$&#10;});" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="mcadmininput" value="&lt;div&gt;&#10;&lt;label class=&quot;dc-label dc-label--required&quot;&#10;       ng-class=&quot;{'dc-label--is-error': ctrl.vm.$FORMNAME$.$FIELDNAME$.$invalid &amp;&amp;&#10;       (ctrl.vm.$FORMNAME$.$FIELDNAME$.$touched || ctrl.vm.$FORMNAME$.$submitted) }&quot;&#10;       for=&quot;$ID$&quot;&gt;$END$&lt;/label&gt;&#10;&lt;div ng-messages=&quot;ctrl.vm.$FORMNAME$.$FIELDNAME$.$error&quot;&#10;     role=&quot;alert&quot;&#10;     ng-if=&quot;ctrl.vm.$FORMNAME$.$FIELDNAME$.$touched || ctrl.vm.$FORMNAME$.$submitted&quot;&gt;&#10;  &lt;span ng-message=&quot;required&quot; class=&quot;dc-text--error&quot;&gt;Please don't leave this empty.&lt;/span&gt;&#10;&lt;/div&gt;&#10;&lt;input class=&quot;dc-input dc-input--block&quot; type=&quot;text&quot;&#10;       ng-class=&quot;{'dc-input--is-error': ctrl.vm.$FORMNAME$.$FIELDNAME$.$invalid &amp;&amp;&#10;       (ctrl.vm.$FORMNAME$.$FIELDNAME$.$touched || ctrl.vm.$FORMNAME$.$submitted) }&quot;&#10;       ng-model=&quot;ctrl.vm.$MODEL$.$FIELDNAME$&quot; name=&quot;$FIELDNAME$&quot; id=&quot;$ID$&quot; required/&gt;&#10;&lt;/div&gt;" description="mc-package-admin input required" toReformat="false" toShortenFQNames="true">
+    <variable name="FORMNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELDNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
