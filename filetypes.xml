@@ -1,0 +1,13 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping pattern="Jenkinsfile_e2e" type="PLAIN_TEXT" />
+      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
+      <mapping ext="mustashe" type="PLAIN_TEXT" />
+      <mapping ext="xpt" type="PLAIN_TEXT" />
+      <mapping ext="dev" type="PLAIN_TEXT" />
+      <mapping ext="service" type="TypeScript" />
+    </extensionMap>
+  </component>
+</application>

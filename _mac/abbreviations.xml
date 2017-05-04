@@ -1,0 +1,17 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="SplitVertically">
+        <abbreviation name="vv" />
+        <abbreviation name="ww" />
+      </action>
+      <action id="SplitHorizontally">
+        <abbreviation name="hh" />
+      </action>
+      <action id="UnsplitAll">
+        <abbreviation name="un" />
+      </action>
+      <action id="ShowUmlDiagram" />
+    </abbreviations>
+  </component>
+</application>
